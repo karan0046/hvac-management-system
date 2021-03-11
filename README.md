@@ -10,9 +10,9 @@ The major function of our product is to control the environment situations insid
 
 Some major function of the product are listed below:-
 
-Taking input from the sensor in the automatic mode.
-Update the HVAC by taking necessary actions based on the input.
-Taking input from the user in the manual mode.
-Showing output given by the implemented Automation HVAC system to the user.
-Send an Alert message and pop up, if conditions cross the threshold.
-Keep a record of the HVAC performance.
+- Taking input from the sensor in the automatic mode.
+- Update the HVAC by taking necessary actions based on the input.
+- Taking input from the user in the manual mode.
+- Showing output given by the implemented Automation HVAC system to the user.
+- Send an Alert message and pop up, if conditions cross the threshold.
+- Keep a record of the HVAC performance.

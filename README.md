@@ -2,6 +2,8 @@
 
 Web-based application for an automatic HVAC system in CC3 building that aims to provide thermal comfort and improve the indoor air quality. Based on the environment inside the building the system should be able to automatically adjust the temperature with the help of ACs, fans, heaters, etc., create the ventilation for the air to refresh it after regular intervals of time to maintain the air quality. The input sensor data involves the temperature, humidity and air quality. The air quality can be measured in terms of Air Quality Index (AQI) values ranging from 0 to 500 degrees based on the presence of pollutants, refer below figure for standard benchmarks. On the basis of the sensed data we can adjust the temperature and ventilation accordingly, which also lead to efficient management of energy.
 
+![Air Quality Index](https://image.jimcdn.com/app/cms/image/transf/none/path/s84afce38611cf0b3/image/ia4b650b2720d122f/version/1573649439/thresholds-colors-and-meaning-of-the-levels-of-the-air-quality-index.png)
+
 ### Product Perspective
 In a building workspace, temperature and air quality matters a lot ,its concerns with the health of employees working on , thus maintenance and working of HVAC at its best is of most need,thus need of our application in turn reduces the manual effort for the same by automatically updating the HVAC,This is a self contained product,the product involves sensors to monitor the condition in the surrounding.
 

@@ -1,13 +1,3 @@
-## Group Members
-| Enrollment No.  | Name | GithubId |
-| ------------- | ------------- | ---------------|
-|  IIT2019028  |    Shubham Netam | Shubham11Netam   |
-|  IIT2019030 |  Sarvesh | Sarvesh-11  |
-|  IIT2019046 | Karan Sah | Karan0046 |
-|  IIT2019048 | Ravi Kanth      |   LUVKUSHBHARAT      |
-
-**Group No- 12** <br/>
-**Faculty Name**  - Abhishek Vaish <br/>
 
 ## Web-based application for automatic HVAC system ##
 
@@ -28,4 +18,14 @@ Some major function of the product are listed below:-
 - Taking input from the user in the manual mode.
 - Showing output given by the implemented Automation HVAC system to the user.
 - Send an alert message and pop up, if conditions cross the threshold.
-- Keep a record of the HVAC performance.
+- Keep a record of the HVAC performance.                                                                                                                                               ## Group Members
+| Enrollment No.  | Name | GithubId |
+| ------------- | ------------- | ---------------|
+|  IIT2019028  |    Shubham Netam | Shubham11Netam   |
+|  IIT2019030 |  Sarvesh | Sarvesh-11  |
+|  IIT2019046 | Karan Sah | Karan0046 |
+|  IIT2019048 | Ravikant      |   LUVKUSHBHARAT      |
+
+**Group No- 12** <br/>
+**Faculty Name**  - Abhishek Vaish <br/>
+         

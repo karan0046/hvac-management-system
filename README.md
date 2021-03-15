@@ -2,9 +2,9 @@
 | Enrollment No.  | Name | GithubId |
 | ------------- | ------------- | ---------------|
 |  IIT2019028  |    Shubham Netam | Shubham11Netam   |
-|  IIT2019028 |  Sarvesh | Sarvesh-11  |
-|  IIT2019029 | Karan Sah | Karan0046 |
-|  IIT2019028 | Ravi Kanth      |   LUVKUSHBHARAT      |
+|  IIT2019030 |  Sarvesh | Sarvesh-11  |
+|  IIT2019046 | Karan Sah | Karan0046 |
+|  IIT2019048 | Ravi Kanth      |   LUVKUSHBHARAT      |
 
 **Group No- 21** <br/>
 **Faculty Name**  - Abhishek Vaish <br/>

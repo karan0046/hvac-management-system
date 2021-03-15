@@ -1,3 +1,14 @@
+
+| Enrollment No.  | Name | GithubId |
+| ------------- | ------------- | ---------------|
+|  IIT2019028  |    Shubham Netam | Shubham11Netam   |
+|  IIT2019028 |  Sarvesh | Sarvesh-11  |
+|  IIT2019029 | Karan Sah | Karan0046 |
+|  IIT2019028 | Ravi Kanth      |   LUVKUSHBHARAT      |
+
+**Group No- 21** <br/>
+**Faculty Name**  - Abhishek Vaish <br/>
+
 ## Web-based application for automatic HVAC system ##
 
 Web-based application for an automatic HVAC system in CC3 building that aims to provide thermal comfort and improve the indoor air quality. Based on the environment inside the building the system should be able to automatically adjust the temperature with the help of ACs, fans, heaters, etc., create the ventilation for the air to refresh it after regular intervals of time to maintain the air quality. The input sensor data involves the temperature, humidity and air quality. The air quality can be measured in terms of Air Quality Index (AQI) values ranging from 0 to 500 degrees based on the presence of pollutants, refer below figure for standard benchmarks. On the basis of the sensed data we can adjust the temperature and ventilation accordingly, which also lead to efficient management of energy.

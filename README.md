@@ -6,7 +6,7 @@
 |  IIT2019046 | Karan Sah | Karan0046 |
 |  IIT2019048 | Ravi Kanth      |   LUVKUSHBHARAT      |
 
-**Group No- 21** <br/>
+**Group No- 12** <br/>
 **Faculty Name**  - Abhishek Vaish <br/>
 
 ## Web-based application for automatic HVAC system ##

@@ -26,7 +26,7 @@
   main {
     font-family: "Poppins", sans-serif;
     min-height: 100vh;
-    background: linear-gradient(to right top, #050505, #6cdbeb);
+    background: linear-gradient(to right top, #71acbb, #6cdbeb);
     display: flex;
     align-items: center;
     justify-content: center;
@@ -34,7 +34,7 @@
   
   .glass {
     background: white;
-    height: 75vh;
+    height: 80vh;
     width: 80%;
     background: linear-gradient(
       to right bottom,
@@ -43,7 +43,7 @@
     );
     border-radius: 2rem;
     z-index: 2;
-    backdrop-filter: blur(2rem);
+    backdrop-filter: blur(3rem);
     display: flex;
   }
   .circle1,
@@ -71,10 +71,10 @@
   .dashboard {
     flex: 1;
     display: flex;
-    flex-direction: column-reverse;
+    flex-direction: column;
     align-items: center;
     justify-content: space-evenly;
-    text-align: match-parent;
+    /*text-align: match-parent;*/
     background: linear-gradient(
       to right bottom,
       rgba(255, 255, 255, 0.7),
@@ -118,6 +118,8 @@
   /* GAMES */
   .status {
     margin-bottom: 3rem;
+    margin-top: 2rem;
+    margin-left: 1rem;
   }
   
   .status input {
@@ -134,7 +136,7 @@
   }
   
   .games {
-    margin: 5rem;
+    margin: 2rem;
     margin-top: 2rem;;
     margin-bottom :2rem;
     display: flex;
@@ -151,7 +153,7 @@
     );
     border-radius: 1rem;
     margin: 2rem 0rem;
-    padding: 2rem;
+    padding: 1rem;
     box-shadow: 6px 6px 20px rgba(122, 122, 122, 0.212);
     justify-content: space-between;
   }

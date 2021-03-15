@@ -18,7 +18,9 @@ Some major function of the product are listed below:-
 - Taking input from the user in the manual mode.
 - Showing output given by the implemented Automation HVAC system to the user.
 - Send an alert message and pop up, if conditions cross the threshold.
-- Keep a record of the HVAC performance.                                                                                                                                               ## Group Members
+- Keep a record of the HVAC performance.                                                                                                                                              
+ 
+ ## Group Members
 | Enrollment No.  | Name | GithubId |
 | ------------- | ------------- | ---------------|
 |  IIT2019028  |    Shubham Netam | Shubham11Netam   |

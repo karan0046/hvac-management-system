@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./slide.css">
+    <script src="https://kit.fontawesome.com/a076d05399.js"></script>
+</head>
+
+<script type="text/javascript" src="https://canvasjs.com/assets/script/canvasjs.min.js"></script>
+
+<body>
+  <div class="wrapper">
+    <header>Monitor Sensors</header>
+    <input type="radio" name="slider" checked id="home">
+    <input type="radio" name="slider" id="blog">
+    <!--<input type="radio" name="slider" id="code">-->
+    <!--<input type="radio" name="slider" id="help">-->
+    <input type="radio" name="slider" id="about">
+    <nav>
+      <label for="home" class="home"><i class="fas fa-home"></i>Temperature</label>
+      <label for="blog" class="blog"><i class="fas fa-blog"></i>AQI</label>
+      <!--<label for="code" class="code"><i class="fas fa-code"></i>Code</label>-->
+      <!--<label for="help" class="help"><i class="far fa-envelope"></i>Help</label>-->
+      <label for="about" class="about"><i class="far fa-user"></i>About</label>
+      <div class="slider"></div>
+    </nav>
+    <section>
+      <div class="content content-1">
+        <div class="title">Temperature</div>
+        <div id="chartContainer1" class = "chart">	</div>
+      </div>
+      <div class="content content-2">
+        <div class="title">Air Quality index</div>
+        <div id="chartContainer2" class = "chart"></div>
+      </div>
+      <!--<div class="content content-3">
+        <div class="title">This is a Code content</div>
+        <p>Lorem ipsum dolor sit amet, </p>
+      </div>-->
+      <!--<div class="content content-4">
+        <div class="title">This is a Help content</div>
+        <p>Lorem ipsum dolor sit amet.</p>
+      </div>-->
+
+      <div class="content content-5">
+        <div class="title">Situation Analysis</div>
+        <p>This section will show a brief information about the condition </p>
+      </div>
+    </section>
+  </div>
+ <script src="./graph.js"></script>
+</body>
+</html>

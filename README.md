@@ -29,5 +29,5 @@ Some major function of the product are listed below:-
 |  IIT2019048 | Ravikant      |   LUVKUSHBHARAT      |
 
 **Group No- 12** <br/>
-**Faculty Name**  - Abhishek Vaish <br/>
+**Faculty Name**  - Dr. Abhishek Vaish, Dr. Sonali Agarwal <br/>
          

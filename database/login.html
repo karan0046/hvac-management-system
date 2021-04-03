@@ -1,0 +1,61 @@
+<html>
+<head>
+  <title>Login</title>
+  <link href="https://fonts.googleapis.com/css?family=Nunito:400,600,700" rel="stylesheet">
+  <link rel="stylesheet" href="login.css" />
+</head>
+<body>
+  <div id = "lo" class="wrapper">
+    <div class="title">Login</div>
+      <form action="#">
+        <div class="field">
+          <input type="email" id = "Email" required>
+          <label>Email ID</label>
+        </div>
+        <div class="field">
+          <input type="password" id = "Password" required>
+          <label>Password</label>
+        </div>
+        <div class="content">
+          <div class="checkbox">
+            <input type="checkbox" id="remember-me">
+            <label for="remember-me">Remember me</label>
+          </div>
+          <div class="pass-link">
+             <a href="./forgot.html">Forgot password?</a>
+          </div>
+        </div>
+          <div class="field">
+          <input type="submit" onclick = "login()" value="Login">
+          <!--button onclick = "login()">LOGIN</button>-->
+          </div>
+      </form>
+    </div>
+
+  <div id="user_div" class="loggedin-div">
+    <h3>Welcome User</h3>
+    <p id="user_para">Welcome to Firebase web login Example. You're currently logged in.</p>
+    <button onclick="logout()">Logout</button>
+  </div>
+
+
+
+  <script src="https://www.gstatic.com/firebasejs/4.8.1/firebase.js"></script>
+  <script>
+    // Initialize Firebase
+    var firebaseConfig = {
+    apiKey: "AIzaSyCQeK4nkUj4IX7hdgAxmaQMZCOBl2hJOcM",
+    authDomain: "hvac-a7fdf.firebaseapp.com",
+    projectId: "hvac-a7fdf",
+    storageBucket: "hvac-a7fdf.appspot.com",
+    messagingSenderId: "701133403475",
+    appId: "1:701133403475:web:23cc6c994e491b460d9da6",
+    measurementId: "G-BNNRM31L8T"
+  };
+  // Initialize Firebase
+  firebase.initializeApp(firebaseConfig);
+  </script>
+  <script src="login.js"></script>
+
+</body>
+</html>

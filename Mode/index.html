@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>mode change and report. </title>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <link rel="stylesheet" href="modal.css">
+    <script src="graph.js"></script>
+</head>
+
+<body>
+    <div class="tabs">
+        <input type="radio" name="tabs" id="tabone" checked="checked">
+        <label for="tabone">Auto</label>
+        <div class="tab">
+            <p>Data read from sensors are shown below</p>
+            <!--
+            <button type="button" onclick="document.getElementById('demo').innerHTML = Date()">
+                Click me to display Date and Time.</button> -->
+            <div class="scroll">
+                <table id="102" class="table">
+                    <thead>
+                        <tr>
+                            <th>S.No. </th>
+                            <th>Date </th>
+                            <th>Time </th>
+                            <th>Temparature </th>
+                            <th>AQI </th>
+                        </tr>
+                    </thead>
+                </table>
+            </div>
+
+            <p id="demo"></p>
+
+        </div>
+
+        <input type="radio" name="tabs" id="tabtwo">
+        <label for="tabtwo">Manual</label>
+        <div class="tab">
+            <h2>Enter details for Manual trasmitting</h2>
+
+            <form>
+                <input type="text" name="temprature" id="temp" placeholder="Enter temprature you want">
+                <input type="txet" name="air index" id="air" placeholder="Enter air quality you want">
+                <!--<input type="radio" name="" id="air" placeholder="Enter air quality you want"> -->
+                <br><br>
+                <input type="button" class="btn btn-success" name="details" id="detail" onclick="stop()" value="Submit">
+            </form>
+        </div>
+
+    </div>
+
+</body>
+
+</html>

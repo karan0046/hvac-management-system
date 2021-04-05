@@ -1,0 +1,38 @@
+.reviewTag{
+    margin: auto;
+    width: 50%;
+    height: 500px;
+    padding: 10px;
+    overflow: auto;
+    box-shadow: 10px 10px 8px 7px rgba(0,0,0,0.75);
+-webkit-box-shadow: 10px 10px 8px 7px rgba(0,0,0,0.75);
+-moz-box-shadow: 10px 10px 8px 7px rgba(0,0,0,0.75);
+
+}
+
+.review{
+    padding: 10px;
+    margin-top: 2%;
+    background-color: gray;
+}
+
+.form{
+    margin: auto;
+    width: 50%;
+    height: auto;
+    padding: 10px;
+    margin-top: 3%;
+    box-shadow: 10px 10px 8px 7px rgba(0,0,0,0.75);
+-webkit-box-shadow: 10px 10px 8px 7px rgba(0,0,0,0.75);
+-moz-box-shadow: 10px 10px 8px 7px rgba(0,0,0,0.75);
+}
+
+.btn{
+    margin-top: 3%;
+}
+
+.form-control{
+    box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75) inset;
+-webkit-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75) inset;
+-moz-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75) inset;
+}

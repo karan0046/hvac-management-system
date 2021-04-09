@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Forgot Password | HVAC</title>
+    <link rel="stylesheet" href="forgot.css">
+</head>
+
+<body>
+    <div class="wrapper" id = "lo">
+        <div class="title">Forgot Password</div>
+        <form action="#">
+            <div class="field">
+                <input type="email" id ="Email" required>
+                <label>Email ID</label>
+            </div>
+            
+            <div class="field">
+                <!--<button type = "button" onclick ="send()" > SEND </button> -->
+                <input type="submit" onclick = "send()" value="Send Reset Link"> 
+            </div>
+
+            <div class="OTP">Note:- Reset Link will be sent to the registered email-id .</div>
+        </form>
+    </div>
+
+  <script src="https://www.gstatic.com/firebasejs/4.8.1/firebase.js"></script>
+  
+  <script>
+    // Initialize Firebase
+    var firebaseConfig = {
+    apiKey: "AIzaSyCQeK4nkUj4IX7hdgAxmaQMZCOBl2hJOcM",
+    authDomain: "hvac-a7fdf.firebaseapp.com",
+    projectId: "hvac-a7fdf",
+    storageBucket: "hvac-a7fdf.appspot.com",
+    messagingSenderId: "701133403475",
+    appId: "1:701133403475:web:23cc6c994e491b460d9da6",
+    measurementId: "G-BNNRM31L8T"
+  };
+  // Initialize Firebase
+  firebase.initializeApp(firebaseConfig);
+  </script>
+
+  <script src="forgot.js"></script>
+
+</body>
+</html>

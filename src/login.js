@@ -28,7 +28,7 @@ function login(){
 
   var userEmail = document.getElementById("Email").value;
   var userPass = document.getElementById("Password").value;
-
+  
   firebase.auth().signInWithEmailAndPassword(userEmail, userPass).then(cred =>{
     window.location.href = "room.html";
   }).catch(function(error) {
@@ -37,7 +37,7 @@ function login(){
     var errorMessage = error.message;
 
     window.alert("Error : " + errorMessage);
-
+    window.location.href = "login.html";
     // ...
   });
 

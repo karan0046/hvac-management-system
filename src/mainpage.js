@@ -4,13 +4,13 @@
 function contact(){
     //alert("working")
 
-    var name = document.getElementById("Nm").value;
+    /*var name = document.getElementById("Nm").value;
     var email = document.getElementById("Em").value;
     var message = document.getElementById("Mm").value;
     //console.log(name, email, message);
 
     //saveContactInfo(name, email, message);
-    alert(name);
+    alert(name);*/
 
     
 

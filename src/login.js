@@ -32,7 +32,11 @@ function room() {
         var email_id = user.email;
         var pos = email_id.indexOf("@");
         var uid = email_id.slice(0,pos);
-      
+
+        if(uid == "iit2019046")uid = "Karan Sah"
+        if(uid == "iit2019048")uid = "Ravikant Vaishnav"
+        if(uid == "iit2019031")uid = "Sarvesh"
+        if(uid == "iit2019028")uid = "Shubham Netam"
         notify("sucess","Welcome User : " + uid);
       }
     } 

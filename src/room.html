@@ -9,7 +9,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
       <title>Rooms</title>
   </head>
-  <body>
+  <body onload = "room()">
       <div class="upper">Rooms</div>
     <div class="wrapper">
       <div class="box">
@@ -19,7 +19,7 @@
         </div>
 <div class="back-face">
           <span>Room No-5145</span>
-        <button class="but"><a  class="link" href="hvac.html">View HVAC Conditions</a></button>
+        <button class="but" onclick = "_5145()"><a  class="link" href="hvac.html">View HVAC Conditions</a></button>
 </div>
 </div>
 <div class="box">
@@ -29,7 +29,7 @@
         </div>
 <div class="back-face">
           <span>Room No-5146</span>
-        <button class="but"><a class="link"  href="hvac.html">View HVAC Conditions</a></button>
+        <button class="but"onclick = "_5146()"><a class="link"  href="hvac.html">View HVAC Conditions</a></button>
          
 </div>
 </div>
@@ -41,7 +41,7 @@
         </div>
 <div class="back-face">
           <span>Room No-5147</span>
-        <button class="but"><a class="link"  href="hvac.html">View HVAC Conditions</a></button>
+        <button class="but"onclick = "_5147()"><a class="link"  href="hvac.html">View HVAC Conditions</a></button>
          
 </div>
 </div>
@@ -52,7 +52,7 @@
         </div>
 <div class="back-face">
           <span>Room No-5148</span>
-        <button class="but"><a class="link"  href="hvac.html">View HVAC Conditions</a></button>
+        <button class="but"onclick = "_5148()"><a class="link"  href="hvac.html">View HVAC Conditions</a></button>
          
 </div>
 </div>
@@ -63,7 +63,7 @@
         </div>
 <div class="back-face">
           <span>Room No-5149</span>
-        <button class="but"><a class="link"  href="hvac.html">View HVAC Conditions</a></button>
+        <button class="but"onclick = "_5149()"><a class="link"  href="hvac.html">View HVAC Conditions</a></button>
          
 </div>
 </div>
@@ -74,10 +74,33 @@
         </div>
 <div class="back-face">
           <span>Room No-5150</span>
-        <button class="but"><a class="link"  href="hvac.html">View HVAC Conditions</a></button>
+        <button class="but"onclick = "_5150()"><a class="link"  href="hvac.html">View HVAC Conditions</a></button>
          
 </div>
 </div>
 </div>
+<div id="notification-area">
+      </div>
+<script src="https://www.gstatic.com/firebasejs/4.8.1/firebase.js"></script>
+   <script src="https://www.gstatic.com/firebasejs/8.3.2/firebase-database.js"></script>
+        <script src="https://www.gstatic.com/firebasejs/8.3.2/firebase-storage.js"></script>
+        <!-- TODO: Add SDKs for Firebase products that you want to use
+            https://firebase.google.com/docs/web/setup#available-libraries -->
+        <script src="https://www.gstatic.com/firebasejs/8.3.2/firebase-analytics.js"></script>
+  <script>
+    // Initialize Firebase
+    var firebaseConfig = {
+    apiKey: "AIzaSyCQeK4nkUj4IX7hdgAxmaQMZCOBl2hJOcM",
+    authDomain: "hvac-a7fdf.firebaseapp.com",
+    projectId: "hvac-a7fdf",
+    storageBucket: "hvac-a7fdf.appspot.com",
+    messagingSenderId: "701133403475",
+    appId: "1:701133403475:web:23cc6c994e491b460d9da6",
+    measurementId: "G-BNNRM31L8T"
+  };
+  // Initialize Firebase
+  firebase.initializeApp(firebaseConfig);
+  </script>
+<script src = "login.js"></script>
 </body>
 </html>

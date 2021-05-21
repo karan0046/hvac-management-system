@@ -126,7 +126,7 @@ function upload(){
   });
 
   window.alert("file uploaded");
-  
+  window.location.href = "report.html"
   //dropArea.classList.add("active");
   dropArea.innerHTML = `
   <header>Drag & Drop to Upload File</header>
@@ -138,6 +138,4 @@ function upload(){
 
 
 }
-function logout(){
-  firebase.auth().signOut();
-}
+

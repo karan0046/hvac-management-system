@@ -69,10 +69,10 @@ var _seed = 42;
       var max = snapshot.val().max;
       var min = snapshot.val().min;
       if(aqi > max){
-        alert("AQI : "+aqi+"\n"+"Needs purifiction AQI is high !");
+        notify("success","AQI : "+aqi+"\n"+"Needs purifiction AQI is high !");
       }
       if(aqi < min){
-        alert("AQI : "+aqi+"\n"+"Airquality is quite low !");
+        //alert("AQI : "+aqi+"\n"+"Airquality is quite low !");
       }
       
 
@@ -82,10 +82,10 @@ var _seed = 42;
       var mx = snapshot.val().max;
       var mn = snapshot.val().min;
       if(temp > mx){
-        alert("Temperature : "+temp+"\n"+"high temperature detected ! Take Action");
+        notify("error","Temperature : "+temp+"\n"+"high temperature detected ! Take Action");
       }
       if(temp < mn){
-        alert("Temperature : "+temp+"\n"+"low temperature detected ! Take Action");
+        notify("info","Temperature : "+temp+"\n"+"low temperature detected ! Take Action");
       }
       
     });
@@ -244,3 +244,22 @@ var options = {
 //////////////////////////////////////////////
 
 
+function notify(type,message){
+  (()=>{
+    let n = document.createElement("div");
+    let id = Math.random().toString(36).substr(2,10);
+    n.setAttribute("id",id);
+    n.classList.add("notification",type);
+    n.innerText = message;
+    document.getElementById("notification-area").appendChild(n);
+    setTimeout(()=>{
+      var notifications = document.getElementById("notification-area").getElementsByClassName("notification");
+      for(let i=0;i<notifications.length;i++){
+        if(notifications[i].getAttribute("id") == id){
+          notifications[i].remove();
+          break;
+        }
+      }
+    },4000);
+  })();
+}

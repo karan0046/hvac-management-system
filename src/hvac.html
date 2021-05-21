@@ -2,6 +2,7 @@
 <html lang="en">
   <head>
     <script src="https://kit.fontawesome.com/49ea1c59b7.js" crossorigin="anonymous"></script>
+    
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link
@@ -13,7 +14,7 @@
     <link rel="stylesheet" href="hvac.css" />
     <title>DASHBOARD</title>
   </head>
-  <body id="body">
+  <body id="body" onload = "verify()">
     <div class="container">
       <nav class="navbar">
         <div class="nav_icon" onclick="toggleSidebar()">
@@ -168,7 +169,7 @@
         <div class="sidebar__menu">
           <div class="sidebar__link ">
             <i class="fa fa-home"></i>
-            <a href="#">Dashboard</a>
+            <a href="#" id = "DR">Dashboard</a>
           </div>
           <h2>Management</h2>
           <div class="sidebar__link active_menu_link">
@@ -225,9 +226,13 @@
           </div>-->
           <div class="sidebar__logout">
             <i class="fa fa-power-off"></i>
-            <a href="login.html"  >Log out</a>
+            <a href="login.html">Log out</a>
           </div>
         </div>
+      </div>
+
+
+      <div id="notification-area">
       </div>
     </div>
     <script src="https://cdn.jsdelivr.net/npm/apexcharts"></script>
@@ -257,6 +262,6 @@
         </script>
     
     <script src="hvac.js"></script>
-    
+    <script src="js/_global.js"></script>
   </body>
 </html>

@@ -60,9 +60,9 @@ function getNewSeries(yrange) {
       x = parseInt(x);
       y = document.getElementById("203").innerText;
       y = parseInt(y);
-      document.getElementById("103").innerText = x+100 ;
-      document.getElementById("203").innerText = y + 2 + '%' ;
-      alert("AQI : "+aqi+"\n"+"Needs purifiction AQI is high ! purifying intiated");
+      document.getElementById("103").innerText = x+50 ;
+      if ( y + 2 <= 100)document.getElementById("203").innerText = y + 2 + '%' ;
+      notify("success","AQI : "+aqi+"\n"+"Needs purifiction AQI is high ! purifying intiated");
 
     }
     if(aqi < min){
@@ -85,11 +85,11 @@ function getNewSeries(yrange) {
       z2 = parseInt(z2);
       document.getElementById("101").innerText = x+100 ;
       document.getElementById("102").innerText = y>100?y-100:0 ;
-      document.getElementById("201").innerText = z1 + 5 +'%';
+      if ( z1 + 5 <= 100)document.getElementById("201").innerText = z1 + 5 +'%';
       document.getElementById("202").innerText = z2>5?z2-5+'%':0+'%' ;
       if(y-100<0)document.getElementById("1020").innerHTML = `<i class="fa fa-circle-o-notch  fa-3x fa-fw text-red" aria-hidden="true" ></i>` ;
       else document.getElementById("1020").innerHTML = `<i class="fa fa-circle-o-notch  fa-spin fa-3x fa-fw text-red" aria-hidden="true" ></i>` ;
-      alert("Temperature : "+temp+"\n"+"high temperature detected ! Cooling intiated");
+      notify("error","Temperature : "+temp+"\n"+"high temperature detected ! Cooling intiated");
       
     }
     if(temp < mn){
@@ -104,7 +104,7 @@ function getNewSeries(yrange) {
       z2 = parseInt(z2);
       document.getElementById("102").innerText = x+100 ;
       document.getElementById("101").innerText = y>100?y-100:0 ;
-      document.getElementById("202").innerText = z1 + 5 +'%';
+      if ( z1 + 5 <= 100)document.getElementById("202").innerText = z1 + 5 +'%';
       document.getElementById("201").innerText = z2>5?z2-5+'%':0+'%' ;
       if(y-100<0)document.getElementById("1010").innerHTML = `<i
       class="fas fa-fan  fa-3x fa-fw text-lightblue"
@@ -117,7 +117,7 @@ function getNewSeries(yrange) {
     ></i>` ;
     }
       
-      alert("Temperature : "+temp+"\n"+"low temperature detected ! heating initiated");
+      notify("info","Temperature : "+temp+"\n"+"low temperature detected ! heating initiated");
     }
     
   });
@@ -132,4 +132,23 @@ window.setInterval(function () {
 
 /////////////////////////////////////
 
-  
+function notify(type,message){
+  (()=>{
+    let n = document.createElement("div");
+    let id = Math.random().toString(36).substr(2,10);
+    n.setAttribute("id",id);
+    n.classList.add("notification",type);
+    n.innerText = message;
+    document.getElementById("notification-area").appendChild(n);
+    setTimeout(()=>{
+      var notifications = document.getElementById("notification-area").getElementsByClassName("notification");
+      for(let i=0;i<notifications.length;i++){
+        if(notifications[i].getAttribute("id") == id){
+          notifications[i].remove();
+          break;
+        }
+      }
+    },6000);
+  })();
+}
+

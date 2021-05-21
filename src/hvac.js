@@ -74,6 +74,7 @@ function getNewSeries(yrange) {
     var mx = snapshot.val().max;
     var mn = snapshot.val().min;
     if(temp > mx){
+      document.getElementById("401").innerText = "HIGH";
       var x,y,z1,z2;
       x = document.getElementById("101").innerText;
       x = parseInt(x);
@@ -93,6 +94,7 @@ function getNewSeries(yrange) {
       
     }
     if(temp < mn){
+      document.getElementById("401").innerText = "LOW";
       var x,y,z1,z2;
       x = document.getElementById("102").innerText;
       x = parseInt(x);

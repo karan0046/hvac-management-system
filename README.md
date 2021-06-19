@@ -16,15 +16,15 @@ Some major function of the product are listed below:-
 - Showing output given by the implemented Automation HVAC system to the user.
 - Send an alert message and pop up, if conditions cross the threshold.
 - Keep a report of the HVAC performance.
-- Some addition features like contact and chat.                                                                                                                                             
- ### Screenshots
- 
- ![alt text](https://github.com/karan0046/hvac-management-system/blob/main/src/assets/ms1.png "Monitor Screen I")
- ![alt text](https://github.com/karan0046/hvac-management-system/blob/main/src/assets/ms2.png "Monitor Screen II")
-
- 
+- Some addition features like contact and chat.                                                                                                                                       
  ### Walkthrough project
  
 * [Demonstration -I](https://drive.google.com/file/d/1sqWYC3FoaXFFNGhfDLg2T7vr8DnjDQJO/view?usp=sharing)
 * [Demonstration -II](https://drive.google.com/file/d/1sqcd8l6rp7k9ls5xT_3Jx3KlnAgIUHom/view?usp=sharing)
 * [Demonstration -III](https://drive.google.com/file/d/1sqE_UglHAPSAq_1wnLWZzCEumH56hgd7/view?usp=sharing)
+      
+ ### Screenshots
+ <img src="https://github.com/karan0046/hvac-management-system/blob/main/src/assets/ms1.png" width="50">
+ <img src="https://github.com/karan0046/hvac-management-system/blob/main/src/assets/ms2.png" width="50">
+ ![alt text](https://github.com/karan0046/hvac-management-system/blob/main/src/assets/ms1.png "Monitor Screen I")
+ ![alt text](https://github.com/karan0046/hvac-management-system/blob/main/src/assets/ms2.png "Monitor Screen II")

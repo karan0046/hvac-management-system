@@ -19,8 +19,8 @@ Some major function of the product are listed below:-
 - Some addition features like contact and chat.                                                                                                                                             
  ### Screenshots
  
- ![alt text](hvac-management-system/src/assets/ms1.png "Monitor Screen I")
- ![alt text](hvac-management-system/src/assets/ms2.png "Monitor Screen II")
+ ![alt text](https://github.com/karan0046/hvac-management-system/blob/main/src/assets/ms1.png "Monitor Screen I")
+ ![alt text](https://github.com/karan0046/hvac-management-system/blob/main/src/assets/ms2.png "Monitor Screen II")
 
  
  ### Walkthrough project

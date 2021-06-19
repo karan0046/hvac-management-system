@@ -5,7 +5,7 @@ Web-based application for an automatic HVAC system  that aims to provide thermal
 
 ![Air Quality Index](https://image.jimcdn.com/app/cms/image/transf/none/path/s84afce38611cf0b3/image/ia4b650b2720d122f/version/1573649439/thresholds-colors-and-meaning-of-the-levels-of-the-air-quality-index.png)
 
-### Produc Functions
+### Product Functions
 The major function of our web application is to control the environment situations inside the building. It mainly collects the data from the sensor of environmental conditions , to be used by the HVAC system.
 
 Some major function of the product are listed below:-
@@ -17,13 +17,13 @@ Some major function of the product are listed below:-
 - Send an alert message and pop up, if conditions cross the threshold.
 - Keep a report of the HVAC performance.
 - Some addition features like contact and chat.                                                                                                                                             
+ ### Screenshots
  
- ## Group Members
-| Enrollment No.  | Name | GithubId |
-| ------------- | ------------- | ---------------|
-|  IIT2019028  |    Shubham Netam | Shubham11Netam   |
-|  IIT2019030 |  Sarvesh | Sarvesh-11  |
-|  IIT2019046 | Karan Sah | Karan0046 |
-|  IIT2019048 | Ravikant      |   LUVKUSHBHARAT      |
-
-         
+ ![Hvac monitor screen](hvac-management-system/src/assets/Annotation 2021-05-23 122037.png?raw="true")
+ ![Sensor monitor screen](hvac-management-system/src/assets/Annotation 2021-05-23 122154.png?raw="true")
+ 
+ ### Walkthrough project
+ 
+[Demonstration -I](https://drive.google.com/file/d/1sqWYC3FoaXFFNGhfDLg2T7vr8DnjDQJO/view?usp=sharing)
+[Demonstration -II](https://drive.google.com/file/d/1sqcd8l6rp7k9ls5xT_3Jx3KlnAgIUHom/view?usp=sharing)
+[Demonstration -III](https://drive.google.com/file/d/1sqE_UglHAPSAq_1wnLWZzCEumH56hgd7/view?usp=sharing)

@@ -24,5 +24,7 @@ Some major function of the product are listed below:-
 * [Demonstration -III](https://drive.google.com/file/d/1sqE_UglHAPSAq_1wnLWZzCEumH56hgd7/view?usp=sharing)
       
  ### Screenshots
- <img src="https://github.com/karan0046/hvac-management-system/blob/main/src/assets/ms1.png" height = "425px" width="1050px">
- <img src="https://github.com/karan0046/hvac-management-system/blob/main/src/assets/ms2.png" height = "425px" width="1050px">
+ - Monitor Screen - I
+ <img src="https://github.com/karan0046/hvac-management-system/blob/main/src/assets/ms1.png" height = "325px" width="950px">
+ - Monitor Screen - II
+ <img src="https://github.com/karan0046/hvac-management-system/blob/main/src/assets/ms2.png" height = "325px" width="950px">

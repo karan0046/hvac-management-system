@@ -5,7 +5,7 @@ Web-based application for an automatic HVAC system  that aims to provide thermal
 
 ![Air Quality Index](https://image.jimcdn.com/app/cms/image/transf/none/path/s84afce38611cf0b3/image/ia4b650b2720d122f/version/1573649439/thresholds-colors-and-meaning-of-the-levels-of-the-air-quality-index.png)
 
-### Product Functions
+### Functions
 The major function of our web application is to control the environment situations inside the building. It mainly collects the data from the sensor of environmental conditions , to be used by the HVAC system.
 
 Some major function of the product are listed below:-
@@ -19,10 +19,9 @@ Some major function of the product are listed below:-
 - Some addition features like contact and chat.                                                                                                                                             
  ### Screenshots
  
- ![alt text][logo]
- [logo]: hvac-management-system/src/assets/ms1.png "Monitor Screen I"
- ![alt text][log]
- [log]: hvac-management-system/src/assets/ms2.png "Monitor Screen II"
+ ![alt text](hvac-management-system/src/assets/ms1.png "Monitor Screen I")
+ ![alt text](hvac-management-system/src/assets/ms2.png "Monitor Screen II")
+
  
  ### Walkthrough project
  

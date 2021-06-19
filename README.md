@@ -20,7 +20,9 @@ Some major function of the product are listed below:-
  ### Screenshots
  
  ![alt text][logo]
- [logo]: hvac-management-system/src/assets/Annotation 2021-05-23 122037.png "Monitor Screen 1"
+ [logo]: hvac-management-system/src/assets/ms1.png "Monitor Screen I"
+ ![alt text][log]
+ [log]: hvac-management-system/src/assets/ms2.png "Monitor Screen II"
  
  ### Walkthrough project
  

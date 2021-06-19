@@ -19,11 +19,12 @@ Some major function of the product are listed below:-
 - Some addition features like contact and chat.                                                                                                                                             
  ### Screenshots
  
- ![Hvac monitor screen](hvac-management-system/src/assets/Annotation 2021-05-23 122037.png?raw="true")
- ![Sensor monitor screen](hvac-management-system/src/assets/Annotation 2021-05-23 122154.png?raw="true")
+ ![alt text][logo]
+
+[logo]: hvac-management-system/src/assets/Annotation 2021-05-23 122037.png "Monitor Screen 1"
  
  ### Walkthrough project
  
-[Demonstration -I](https://drive.google.com/file/d/1sqWYC3FoaXFFNGhfDLg2T7vr8DnjDQJO/view?usp=sharing)
-[Demonstration -II](https://drive.google.com/file/d/1sqcd8l6rp7k9ls5xT_3Jx3KlnAgIUHom/view?usp=sharing)
-[Demonstration -III](https://drive.google.com/file/d/1sqE_UglHAPSAq_1wnLWZzCEumH56hgd7/view?usp=sharing)
+... [Demonstration -I](https://drive.google.com/file/d/1sqWYC3FoaXFFNGhfDLg2T7vr8DnjDQJO/view?usp=sharing)
+... [Demonstration -II](https://drive.google.com/file/d/1sqcd8l6rp7k9ls5xT_3Jx3KlnAgIUHom/view?usp=sharing)
+... [Demonstration -III](https://drive.google.com/file/d/1sqE_UglHAPSAq_1wnLWZzCEumH56hgd7/view?usp=sharing)
